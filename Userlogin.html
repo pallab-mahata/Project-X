@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>User Login</title>
+</head>
+<body style="background-color:LightPink;">>
+<div class="login-page" >
+<center>
+  <h1> User Login</h1>
+    
+    <form class="login-form" onsubmit="js/userlogin.js">
+	<ul>
+	 User name:<br>
+   <input type="text" size=25 id="username" placeholder="username" class="username"/>
+	<br>
+	<br>
+	   Password:<br>
+     <input type="password" size=25 id="password" placeholder="password" class="password"/>
+
+	</ul>
+      <input type="button" class="submit" value="login" onclick="validate()">
+      <p class="message">Not registered? <a href="register.html">Create an account</a></p>
+    </form>
+	  </center>
+  </div>
+
+  <script type="text/javascript" src="js/userlogin.js"></script>
+
+</body>
+</html>
